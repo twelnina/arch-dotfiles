@@ -1,0 +1,71 @@
+window#waybar {
+    background: transparent;
+    /* border-right: 1px dashed #fdfdfd; */
+}
+
+
+
+
+/* modules-left */
+
+
+
+/* modules-right */
+
+
+
+/* workspaces */
+#workspaces {
+    background-color: #020012;
+    opacity: 0.8;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+#workspaces button {
+    font-size: 9px;
+    color: #fff;
+    background: transparent;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+#workspaces button.active {
+    color: aqua;
+    font-weight: bold;
+}
+
+/* others */
+#wireplumber,
+#backlight,
+#battery,
+#clock {
+    color: #09004f;
+    background-color: #adadad;
+    opacity: 0.8;
+    font-size: 9px;
+    border-radius: 1px;
+    padding: 8px 0;
+    margin-bottom: 1px;
+}
+
+#tray {
+    background-color: #c6c6c6;
+    opacity: 0.8;
+    padding: 8px 4px 4px;
+    margin-bottom: 1px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+#mpris {
+    background-color: #020012;
+    opacity: 0.8;
+    border-radius: 0 0 12px 12px;
+    border: 1px dashed #333333;
+    border-top: none;
+    color: #c6c6c6;
+    font-size: 9px;
+    font-family: "JetBrainsMono";
+    padding: 5px 0 10px;
+}

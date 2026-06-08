@@ -1,0 +1,130 @@
+* {
+    border: none;
+    font-family: "Noto Sans CJK JP", sans-serif;
+    min-height: 0;
+}
+
+window#waybar {
+    background: none;
+    color: #fff
+}
+
+#cpu,
+#memory,
+#temperature {
+    margin-left: 20px;
+}
+
+#tray {
+    margin-left: 40px;
+}
+
+
+#clock {
+    background: none;
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#clock.date {
+    font-size: 10px;
+    margin-right: 45px;
+}
+
+#custom-arch {
+    font-size: 14px;
+    padding: 0 10px;
+    color: rgb(23, 147, 209);
+    margin-right: 15px;
+}
+
+#workspaces {
+    margin: 0;
+    background: rgba(191, 191, 191, 0.24);
+    border-radius: 9px 0px 0px 9px;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    color: #bebebe;
+    font-size: 10px;
+    font-weight: 500;
+    box-shadow: none;
+}
+
+#workspaces button:hover {
+    background: rgba(38, 38, 38, 0.7);
+}
+
+#workspaces button.active {
+    padding: 0 8px;
+    margin: 0;
+    background-color: rgba(40, 40, 46, 0.848);
+    border-radius: 9px;
+    padding: 0 10px;
+}
+
+
+#window {
+    background: rgba(40, 40, 40, 0.8);
+    border-radius: 0 9px 9px 0;
+    padding: 0 10px;
+    margin-left: 1px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+#wireplumber {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 0 10px;
+    margin-right: 10px;
+    background: rgba(191, 191, 191, 0.24);
+    border-radius: 0 9px 9px 0;
+}
+
+#mpris {
+    font-size: 10px;
+    font-weight: 600;
+    margin-right: 1px;
+    padding: 0 10px;
+    background: linear-gradient(to right, rgba(50, 50, 99, 0.51), rgba(191, 191, 191, 0.24));
+    border-radius: 9px 0 0 9px;
+}
+
+#custom-spotify {
+    margin-right: 15px;
+    color: #1DB954;
+    font-size: 14px;
+}
+
+#custom-power_profile {
+    font-size: 10px;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(191, 191, 191, 0.24);
+    padding-right: 10px;
+    border-radius: 0 9px 9px 0;
+    margin-right: 20px;
+}
+
+#battery {
+    margin-right: 20px;
+}
+
+#backlight {
+    margin-right: 10px;
+}
+
+#cpu,
+#memory,
+#temperature,
+#clock.date,
+#backlight,
+#battery,
+#window {
+    font-size: 9px;
+    font-weight: bold;
+    color: #fff;
+}

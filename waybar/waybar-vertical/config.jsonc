@@ -1,0 +1,96 @@
+{
+    "output": "HDMI-A-2",
+    "position": "left",
+    "layer": "top",
+    "modules-right": [
+        "hyprland/workspaces",
+        "tray",
+        "wireplumber",
+        "backlight",
+        "battery",
+        "clock"
+    ],
+    "modules-center": [
+        ""
+    ],
+    "modules-left": [
+        "mpris"
+    ],
+    "clock": {
+        "rotate": 270
+    },
+    "hyprland/workspaces": {
+        "format": "{id}",
+        "on-click": "activate"
+    },
+    "tray": {
+        "icon-size": 11,
+        "rotate": 270
+    },
+    "wireplumber": {
+        "format": "{volume} {icon}",
+        "format-muted": "muted",
+        "on-click": "pavucontrol",
+        "format-icons": [
+            "",
+            "",
+            ""
+        ],
+        "rotate": 270
+    },
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "{percent} {icon}",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "rotate": 270
+    },
+    "battery": {
+        "interval": 60,
+        "format": "{capacity} {icon}",
+        "format-icons": {
+            "default": [
+                "󰂎",
+                "󰁺",
+                "󰁻",
+                "󰁼",
+                "󰁽",
+                "󰁾",
+                "󰁿",
+                "󰂀",
+                "󰂁",
+                "󰂂",
+                "󰁹"
+            ],
+            "charging": [
+                "󰢟",
+                "󰢜",
+                "󰂆",
+                "󰂇",
+                "󰂈",
+                "󰢝",
+                "󰂉",
+                "󰢞",
+                "󰂊",
+                "󰂋",
+                "󰂅"
+            ]
+        },
+        "rotate": 270
+    },
+    "mpris": {
+        "format": "{title} - {artist}",
+        "player": "firefox",
+        "max-length": 45,
+        "rotate": 270
+    }
+}
