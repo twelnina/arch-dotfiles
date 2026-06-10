@@ -1,0 +1,8 @@
+hl.bind("SUPER + Q", hl.dsp.exec_cmd("kitty"))
+hl.bind("SUPER + Z", hl.dsp.exec_cmd("zen"))
+hl.bind("SUPER + E", hl.dsp.exec_cmd("kitty yazi"))
+hl.bind("SUPER + D", hl.dsp.exec_cmd("pkill rofi || ~/.config/rofi/launchers/type-1/launcher.sh"))
+hl.bind("SUPER + R", hl.dsp.exec_cmd("~/.local/bin/gsr-toggle"))
+hl.bind("SUPER + C", hl.dsp.window.kill())
+hl.bind("SUPER + V", hl.dsp.window.float({ action = "toggle" }))
+hl.bind("SUPER + M", hl.dsp.exit())
