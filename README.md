@@ -23,6 +23,7 @@ introduced in Hyprland 0.55 and is split into small modules.
 The active Hyprland entry point is `hypr/hyprland.lua`. The old Hyprlang
 configuration is retained as `hypr/hyprland.conf.bak` for reference.
 
+
 ## Requirements
 
 The main components are:
