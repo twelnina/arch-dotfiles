@@ -55,35 +55,6 @@ sudo pacman -S --needed \
 Install `awww` and any optional applications separately if you intend to keep
 the related autostart entries or keybindings.
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/twelnina/arch-dotfiles.git
-cd arch-dotfiles
-```
-
-Back up any existing configuration and create symbolic links:
-
-```bash
-backup_dir="$HOME/.config/dotfiles-backup-$(date +%Y%m%d-%H%M%S)"
-mkdir -p "$backup_dir"
-
-for app in hypr waybar rofi kitty mako nvim; do
-  if [ -e "$HOME/.config/$app" ] || [ -L "$HOME/.config/$app" ]; then
-    mv "$HOME/.config/$app" "$backup_dir/"
-  fi
-
-  ln -s "$PWD/$app" "$HOME/.config/$app"
-done
-```
-
-Verify the Hyprland configuration before starting a session:
-
-```bash
-hyprland --verify-config -c "$PWD/hypr/hyprland.lua"
-```
 
 ## Required customization
 
