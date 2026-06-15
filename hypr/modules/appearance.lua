@@ -24,10 +24,9 @@ hl.config({
 			enabled = true,
 			size = 6,
 			passes = 2,
-			noise = 0.2,
+			noise = 0.0,
 			contrast = 0.9,
 			brightness = 0.8,
-			vibrancy_darknes = 0.1696,
 		},
 	},
 
@@ -37,7 +36,7 @@ hl.config({
 	},
 
 	dwindle = {
-		preserce_split = true,
+		preserve_split = true,
 		force_split = 0,
 	},
 })
