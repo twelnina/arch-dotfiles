@@ -25,7 +25,7 @@ hl.window_rule({
 	name = "zen-appearance",
 	match = { class = "zen" },
 	no_blur = 1,
-	opacity = 0.95,
+	opacity = 1,
 })
 
 hl.window_rule({

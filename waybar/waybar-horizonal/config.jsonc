@@ -49,6 +49,7 @@
     "hyprland/workspaces": {
         "spacing": 0,
         "all-outputs": false,
+        "on-click": "activate",
         "persistent-workspaces": {
             "eDP-1": [
                 1,
