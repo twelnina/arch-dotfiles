@@ -86,21 +86,6 @@ done
 The horizontal Waybar layout is started by `waybar/launch.sh`. Change that
 script if you prefer the vertical layout.
 
-## Keybindings
-
-| Binding | Action |
-| --- | --- |
-| `Super + Q` | Open Kitty |
-| `Super + Z` | Open Zen Browser |
-| `Super + E` | Open Yazi in Kitty |
-| `Super + D` | Open the Rofi launcher |
-| `Super + C` | Close the active window |
-| `Super + V` | Toggle floating mode |
-| `Super + M` | Exit Hyprland |
-| `Super + 1..0` | Switch workspace |
-| `Super + Shift + 1..0` | Move the active window to a workspace |
-| `Print` | Run the custom monitor screenshot script |
-| `Shift + Print` | Capture a selected region with Grim and Slurp |
 
 ## Notes
 
