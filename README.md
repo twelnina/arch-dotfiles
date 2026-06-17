@@ -77,9 +77,10 @@ Useful commands for discovering local hardware identifiers:
 hyprctl monitors
 hyprctl devices
 ls /sys/class/power_supply
-for path in /sys/class/hwmon/hwmon*; do
-  printf '%s: ' "$path"
-  cat "$path/name"
+for hwmon in /sys/class/hwmon/hwmon*; do
+  [ -r "$hwmon/name" ] || continue
+  IFS= read -r name < "$hwmon/name"
+  printf '%s: %s\n' "$hwmon" "$name" 
 done
 ```
 
