@@ -32,5 +32,5 @@ hl.window_rule({
 	name = "vsc-appearance",
 	match = { class = "code" },
 	no_blur = 1,
-	opacity = 0.95,
+	opacity = 0.85,
 })
