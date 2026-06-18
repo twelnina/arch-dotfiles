@@ -49,6 +49,7 @@ sudo pacman -S --needed \
   brightnessctl playerctl grim slurp fastfetch yazi \
   fcitx5 hyprsunset \
   ttf-jetbrains-mono-nerd noto-fonts-cjk
+```
 
 
 ## Required customization
@@ -92,8 +93,7 @@ script if you prefer the vertical layout.
 
 ## Credits and licensing
 
- The LazyVim starter files retain the Apache-2.0 license in
-`nvim/LICENSE`.
+The LazyVim starter files retain the Apache-2.0 license in `nvim/LICENSE`.
 
 No repository-wide license has been selected for the remaining original files.
 Third-party images and other assets remain subject to their respective
