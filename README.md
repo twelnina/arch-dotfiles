@@ -15,7 +15,6 @@ introduced in Hyprland 0.55 and is split into small modules.
 | --- | --- |
 | `hypr/` | Modular Hyprland Lua configuration |
 | `waybar/` | Horizontal and vertical Waybar layouts |
-| `rofi/` | Application launcher themes |
 | `kitty/` | Kitty terminal settings |
 | `mako/` | Notification daemon settings |
 | `nvim/` | LazyVim-based Neovim configuration |
@@ -30,7 +29,6 @@ The main components are:
 
 - Hyprland 0.55 or newer
 - Waybar
-- Rofi
 - Kitty
 - Mako
 - Neovim
@@ -46,15 +44,11 @@ An example installation of the packages available in the Arch repositories:
 
 ```bash
 sudo pacman -S --needed \
-  hyprland waybar rofi kitty mako neovim \
+  hyprland waybar kitty mako neovim awww \
   pipewire wireplumber pavucontrol \
   brightnessctl playerctl grim slurp fastfetch yazi \
   fcitx5 hyprsunset \
   ttf-jetbrains-mono-nerd noto-fonts-cjk
-```
-
-Install `awww` and any optional applications separately if you intend to keep
-the related autostart entries or keybindings.
 
 
 ## Required customization
@@ -96,11 +90,10 @@ script if you prefer the vertical layout.
 - The repository intentionally contains personal defaults and may change
   without preserving backward compatibility.
 
+
 ## Credits and licensing
 
-The Rofi themes and launcher scripts are based on
-[adi1090x/rofi](https://github.com/adi1090x/rofi), which is distributed under
-the GPL-3.0 license. The LazyVim starter files retain the Apache-2.0 license in
+ The LazyVim starter files retain the Apache-2.0 license in
 `nvim/LICENSE`.
 
 No repository-wide license has been selected for the remaining original files.
