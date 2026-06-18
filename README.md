@@ -86,7 +86,6 @@ script if you prefer the vertical layout.
 
 - The Neovim configuration uses LazyVim and changes Kitty padding through
   Kitty's remote-control socket.
-- Processing support is enabled when the `processing` command is available.
 - The repository intentionally contains personal defaults and may change
   without preserving backward compatibility.
 
