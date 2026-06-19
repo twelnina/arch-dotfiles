@@ -31,7 +31,7 @@ end
 
 hl.monitor({
 	output = "",
-	mode = "1920x1080@60",
+	mode = "highres",
 	position = "auto",
 	scale = 1,
 	mirror = laptop_output,
