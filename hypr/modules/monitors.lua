@@ -1,9 +1,11 @@
 local laptop_output = "eDP-1"
 local external_output = "desc:Philips Consumer Electronics Company PHL 221E9 0x00003F99"
 
+local mirroring_display = "1920x1200@60"
+
 hl.monitor({
 	output = laptop_output,
-	mode = "1920x1200@60",
+	mode = mirroring_display,
 	position = "1920x0",
 	scale = 1.25,
 })
@@ -31,7 +33,7 @@ end
 
 hl.monitor({
 	output = "",
-	mode = "highres",
+	mode = mirroring_display,
 	position = "auto",
 	scale = 1,
 	mirror = laptop_output,
