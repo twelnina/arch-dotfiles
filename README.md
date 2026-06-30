@@ -82,6 +82,19 @@ done
 The horizontal Waybar layout is started by `waybar/launch.sh`. Change that
 script if you prefer the vertical layout.
 
+## Preview
+
+### Waybar
+
+<p align="center">
+  <img src="assets/screenshots/waybar-horizontal.png" alt="Waybar horizontal layout preview" width="100%">
+</p>
+
+### Mako
+
+<p align="center">
+  <img src="assets/screenshots/mako-preview.png" alt="Mako notification preview" width="420">
+</p>
 
 ## Notes
 
