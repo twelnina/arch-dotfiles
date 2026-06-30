@@ -1,4 +1,4 @@
 #!/bin/bash
 
 killall -9 waybar
-waybar -c ~/.config/waybar/waybar-horizonal/config.jsonc -s ~/.config/waybar/waybar-horizonal/style.css &
+waybar -c ~/.config/waybar/waybar-horizontal/config.jsonc -s ~/.config/waybar/waybar-horizontal/style.css &

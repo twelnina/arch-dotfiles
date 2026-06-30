@@ -63,8 +63,8 @@ At minimum, review these files:
 - `waybar/waybar-horizonal/config.jsonc`: monitor names, battery name, and
   `hwmon` temperature path
 - `waybar/waybar-vertical/config.jsonc`: output and backlight device
-- `mako/config`, `mako/config.light`, and `mako/config.dark`: notification
-  appearance and theme variants
+- `mako/config.light` and `mako/config.dark`: notification appearance and
+  theme variants
 
 Useful commands for discovering local hardware identifiers:
 
@@ -100,7 +100,7 @@ script if you prefer the vertical layout.
 
 - The Neovim configuration uses LazyVim and changes Kitty padding through
   Kitty's remote-control socket.
-- `mako/config` currently matches the dark theme. Use `mako/config.light` or
+- Hyprland starts Mako with `mako/config.dark`. Use `mako/config.light` or
   `mako/config.dark` as theme-specific variants.
 - The repository intentionally contains personal defaults and may change
   without preserving backward compatibility.

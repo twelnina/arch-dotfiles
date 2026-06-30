@@ -56,7 +56,7 @@ $menu = hyprlauncher
 exec-once = .config/waybar/launch.sh
 exec-once = awww-daemon
 exec-once = fcitx5
-exec-once = hyprsunset --temprature 7500
+exec-once = hyprsunset --temperature 7500
 
 #############################
 ### ENVIRONMENT VARIABLES ###
