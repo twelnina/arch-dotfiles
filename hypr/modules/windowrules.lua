@@ -49,3 +49,17 @@ hl.window_rule({
 	match = { class = "kitty" },
 	no_blur = 1,
 })
+
+hl.window_rule({
+	name = "pavucontrol-appearance",
+	match = { class = "org.pulseaudio.pavucontrol" },
+	no_blur = 1,
+	opacity = 0.85,
+})
+
+hl.window_rule({
+	name = "desktop-portal-appearance",
+	match = { class = "xdg-desktop-portal-gtk" },
+	no_blur = 1,
+	opacity = 0.85,
+})
