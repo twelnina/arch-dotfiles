@@ -43,3 +43,9 @@ hl.window_rule({
 	no_blur = 1,
 	opacity = 0.85,
 })
+
+hl.window_rule({
+	name = "kitty-appearance",
+	match = { class = "kitty" },
+	no_blur = 1,
+})
