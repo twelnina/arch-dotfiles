@@ -1,12 +1,12 @@
 * {
-    border: none;
-    font-family: "Noto Sans CJK JP", sans-serif;
-    min-height: 0;
+  border: none;
+  font-family: "Noto Sans CJK JP", sans-serif;
+  min-height: 0;
 }
 
 window#waybar {
-    background: none;
-    color: #fff;
+  background: none;
+  color: #fff;
 }
 
 #cpu,
@@ -16,9 +16,9 @@ window#waybar {
 #backlight,
 #battery,
 #window {
-    font-size: 9px;
-    font-weight: bold;
-    color: #fff;
+  font-size: 9px;
+  font-weight: bold;
+  color: #fff;
 }
 
 
@@ -26,82 +26,91 @@ window#waybar {
 #cpu,
 #memory,
 #temperature {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 #custom-arch {
-    font-size: 14px;
-    padding: 0 10px;
-    color: rgb(23, 147, 209);
-    margin-right: 15px;
+  font-size: 14px;
+  padding: 0 10px;
+  color: rgb(23, 147, 209);
+  margin-right: 15px;
 }
+
 #workspaces {
-    margin: 0;
-    background: rgba(35, 35, 35, 0.4);
-    border-radius: 9px 0 0 9px;
+  margin: 0;
+  background: transparent;
+  border-radius: 9px 0 0 9px;
 }
+
 #workspaces button {
-    padding: 0 8px;
-    color: #bebebe;
-    font-size: 10px;
-    font-weight: 500;
-    border: 1px solid transparent;
-    border-radius: 9px;
-    box-shadow: none;
+  padding: 0 8px;
+  color: #bebebe;
+  font-size: 10px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  box-shadow: none;
 }
+
 #workspaces button:hover {
-    background: rgba(60, 60, 60, 0.5);
+  background: rgba(60, 60, 60, 0.5);
 }
+
 #workspaces button.active {
-    border-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 #window {
-    background: rgba(40, 40, 40, 0.8);
-    border-radius: 0 9px 9px 0;
-    padding: 0 10px;
-    margin-left: 1px;
+  background: rgba(40, 40, 40, 0.7);
+  border-radius: 0 9px 9px 0;
+  padding: 0 10px;
+  margin-left: 1px;
 }
 
 
 /* center module */
 #clock {
-    background: none;
-    padding: 0 10px;
-    font-weight: bold;
-    font-size: 12px;
+  background: none;
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 12px;
 }
 
 
 /* right modules */
 #mpris,
 #wireplumber {
-    font-size: 10px;
-    font-weight: 600;
-    padding: 0 10px;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 0 10px;
 }
 
 #clock.date {
-    margin-right: 45px;
+  margin-right: 45px;
 }
+
 #backlight {
-    margin-right: 10px;
+  margin-right: 10px;
 }
+
 #battery {
-    margin-right: 20px;
+  margin-right: 20px;
 }
+
 #custom-spotify {
-    margin-right: 15px;
-    color: #1DB954;
-    font-size: 14px;
+  margin-right: 15px;
+  color: #1DB954;
+  font-size: 14px;
 }
+
 #mpris {
-    margin-right: 1px;
-    background: linear-gradient(to right, rgba(50, 50, 99, 0.51), rgba(191, 191, 191, 0.24));
-    border-radius: 9px 0 0 9px;
+  margin-right: 1px;
+  background: linear-gradient(to right, rgba(50, 50, 99, 0.51), rgba(191, 191, 191, 0.24));
+  border-radius: 9px 0 0 9px;
 }
+
 #wireplumber {
-    margin-right: 10px;
-    background: rgba(191, 191, 191, 0.24);
-    border-radius: 0 9px 9px 0;
+  margin-right: 10px;
+  background: rgba(191, 191, 191, 0.24);
+  border-radius: 0 9px 9px 0;
 }
