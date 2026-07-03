@@ -1,5 +1,5 @@
 hl.on("hyprland.start", function()
-	hl.exec_cmd(".config/waybar/launch.sh")
+	hl.exec_cmd("~/.config/waybar/launch.sh")
 	hl.exec_cmd("awww-daemon")
 	hl.exec_cmd("fcitx5")
 	hl.exec_cmd("hyprsunset --temperature 7500")
