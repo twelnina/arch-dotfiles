@@ -99,18 +99,18 @@ window#waybar {
 
 #custom-spotify {
   margin-right: 15px;
-  color: #1DB954;
+  color: rgb(29, 185, 84);
   font-size: 14px;
 }
 
 #mpris {
   margin-right: 1px;
-  background: linear-gradient(to right, rgba(50, 50, 99, 0.51), rgba(191, 191, 191, 0.24));
+  background: linear-gradient(to right, rgba(29, 185, 84, 0.2), rgba(191, 191, 191, 0.2));
   border-radius: 9px 0 0 9px;
 }
 
 #wireplumber {
   margin-right: 10px;
-  background: rgba(191, 191, 191, 0.24);
+  background: rgba(191, 191, 191, 0.2);
   border-radius: 0 9px 9px 0;
 }
