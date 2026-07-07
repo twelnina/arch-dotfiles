@@ -68,13 +68,13 @@
         }
     },
     "hyprland/window": {
-        "format": "{title}",
+        "format": "{class}",
         "tooltip": false,
         "max-length" : 30,
         "rewrite": {
-            "(.*) — Zen Browser": "Zen Browser",
-            "(.*) - Visual Studio Code": "󰨞    VS Code",
-            "(.*) - Kitty": " Terminal",
+            "zen": "Zen Browser",
+            "code": "󰨞    VS Code",
+            "jetbrains-studio": "Android Studio",
             "^$": "󰇄     Desktop"
         }
     },
