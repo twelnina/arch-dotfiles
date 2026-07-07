@@ -63,3 +63,10 @@ hl.window_rule({
 	no_blur = 1,
 	opacity = 0.85,
 })
+
+hl.window_rule({
+	name = "thunar-appearance",
+	match = { class = "thunar" },
+	no_blur = 1,
+	opacity = 0.7,
+})

@@ -2,7 +2,7 @@
 local mainMod = "SUPER"
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd("kitty"))
 hl.bind(mainMod .. " + Z", hl.dsp.exec_cmd("zen"))
-hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("kitty yazi"))
+hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("thunar"))
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("pkill rofi || ~/.config/rofi/launchers/type-1/launcher.sh"))
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd("~/.local/bin/gsr-toggle"))
 hl.bind(mainMod .. " + C", hl.dsp.window.close())
