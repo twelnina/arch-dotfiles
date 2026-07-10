@@ -35,6 +35,8 @@
             "",
             ""
         ],
+        "on-scroll-up": "true",
+        "on-scroll-down": "true",
         "rotate": 270
     },
     "backlight": {

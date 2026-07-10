@@ -84,6 +84,8 @@
         "format": "{volume}%",
         "format-muted": "muted",
         "on-click": "pavucontrol",
+        "on-scroll-up": "true",
+        "on-scroll-down": "true",
         "tooltip": false
     },
     "mpris": {
