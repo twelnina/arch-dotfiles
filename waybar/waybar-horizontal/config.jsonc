@@ -44,12 +44,14 @@
     "temperature": {
         "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
         "critical-threshold": 80,
-        "format": "  {temperatureC}°C"
+        "format": "  {temperatureC}°C",
+        "tooltip": false
     },
     "hyprland/workspaces": {
         "spacing": 0,
         "all-outputs": false,
         "on-click": "activate",
+        "tooltip": false,
         "persistent-workspaces": {
             "eDP-1": [
                 1,
@@ -144,6 +146,7 @@
             "",
             "",
             "󰃠"
-        ]
+        ],
+        "tooltip": false
     }
 }
