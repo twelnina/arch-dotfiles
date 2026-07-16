@@ -1,6 +1,6 @@
 hl.device({
 	name = "tpps/2-elan-trackpoint",
-	sensitivity = -0.4,
+	sensitivity = -0.1,
 })
 
 hl.device({
